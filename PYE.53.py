@@ -1,0 +1,16 @@
+from tkinter import *
+root = Tk()
+root.title("Student Mark List")
+root.geometry("500x400")
+f1 = Frame(root)
+f1.config(bg="red")
+f1.pack(fill=BOTH, expand=True)
+l1 = Label(f1, text="ARITHMETIC OPERATION", bg="red", fg="yellow", font=("arial", 25, "bold"))
+l1.pack(pady=10)
+f2 = Frame(root)
+f2.config(bg="pink")
+f2.pack(fill=BOTH, expand=True)
+l2 = Label(f2, text="First Number", bg="pink", font=("arial", 14))
+l2.pack(pady=10)
+
+root.mainloop()
